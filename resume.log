@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.10)  7 AUG 2021 00:19
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.10)  29 MAY 2022 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -875,12 +875,12 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
  ABD: EveryShipout initializing macros
 (./description/header.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 18.
+(Font)              <10.95> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 18.
+(Font)              <8> on input line 17.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 18.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 18
+(Font)              <6> on input line 17.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 17
 .
  (c:/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -888,7 +888,7 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 File: ./image.jpg Graphic file (type bmp)
 <./image.jpg>
 
-Overfull \vbox (36.65306pt too high) detected at line 18
+Overfull \vbox (36.65306pt too high) detected at line 17
  []
 
 ) (./description/education.tex
@@ -915,10 +915,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 19.
 Here is how much of TeX's memory you used:
  23934 strings out of 479418
  502359 string characters out of 5888105
- 799873 words of memory out of 5000000
+ 802875 words of memory out of 5000000
  41033 multiletter control sequences out of 15000+600000
  536942 words of font info for 62 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 63i,11n,73p,415b,455s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,11n,73p,415b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (2 pages).
