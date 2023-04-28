@@ -2,7 +2,7 @@
 \resheading{工作经历}
   \begin{itemize}[leftmargin=*]
          \item
-           \ressubsingleline{汇丰科技}{python开发工程师}{2022.07-至今}
+           \ressubsingleline{汇丰科技}{python开发工程师}{2022.07-2023.03}
            {\small
       \begin{itemize}
       \item 利用python,hive,shell脚本对金融数据进行清洗,利用jenkins,git对代码进行CI/CD管理。
@@ -95,6 +95,29 @@
        \item 利用docker,Tensorflow-serving,streamlit对模型进行部署，实现可视化。
       \end{itemize}
       }
+    \item
+      \ressubsingleline{广汽本田增换购预测}{品友互动}{2021.02 – 2022.06}
+      {\small
+      \begin{itemize}
+       \item 该项目主要利用车辆修理特征以及车主在官方微博、微信的特征对车主增换购进行推荐。
+       \item 数据预处理：使用 sqoop 将数据从数据库导入到 Hive。 然后使用hive SQL 使每个进程的数据（数据清洁并定义正样本和	      负样本）
+       \item 机器学习模型训练以及预测：使用pandas导入数据，做特征工程。 然后我们使用catboost、xgboost、逻辑回归模型来训练模型和预测。同时，我们根据得到的反馈调整每个模型的输出权重。
+       \item 数据输出：结合业务逻辑过滤，输出模型前0.5\%预测结果到输出数据库，最后ETL团队将数据发送到各个4s店。ETL 团队会将这些数据传输到 4s 店以呼叫客户进行换购推广。
+      \end{itemize}
+      }
+    \item
+      \ressubsingleline{Credit card financial risk analysis}{汇丰科技}{2022.07 – 2023.02}
+      {\small
+      \begin{itemize}
+      
+       \item 这个项目主要是利用用户特征和消费特征对HSBC信用卡进行风险评级。
+       \item 预处理：利用python,hive,shell脚本对金融数据进行清洗,利用jenkins,git对代码进行CI/CD管理。
+       \item 数据建模：在gcp平台利用python对数据进行特征工程,利用tensorflow构建tabnet模型进行预测，并与LR模型进行比较。
+       \item 模型输出：将风险最高的用户1\%进行输出，并利用seaborn对其特征进行可视化。
+      \end{itemize}
+      }
+
+
 
 
   \end{itemize}
